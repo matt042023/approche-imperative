@@ -1,2 +1,65 @@
-*.class;
-.idea;
+# Fichiers compilés
+*.class
+
+# Journaux
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.swp
+
+# Repertoire build
+/build/
+/bin/
+/out/
+/target/
+
+# Fichiers de configuration spécifiques à l'IDE
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.project
+.classpath
+.csettings
+.settings/
+
+# VS Code
+.vscode/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de test générés
+/test-output/
+/surefire-reports/
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+gradle-app.setting
+**/gradlew
+**/gradlew.bat
+
+# Maven
+.mvn/
+!**/mvnw
+!**/mvnw.cmd
+
+# Environnement
+.env
+*.env
+
+# Packages
+*.jar
+*.war
+*.ear
+
+# Fichiers de sauvegarde
+*.bak
+*.old
+*.orig
