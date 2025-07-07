@@ -10,9 +10,9 @@ public class DeclarationApp {
 
         long longTest = 5412458;
 
-        float floatTest = 2.5F;
+        float floatTest = 2.56F;
 
-        double doubleTest = 23.21;
+        double doubleTest = 23.21541;
 
         char charTest = 'G';
 
@@ -23,6 +23,7 @@ public class DeclarationApp {
         System.out.println("byte : " + byteTest);
         System.out.println("short : " + shortTest);
         System.out.println("int : " + intTest);
+        System.out.println("long : " + longTest);
         System.out.println("float : " + floatTest);
         System.out.println("double : " + doubleTest);
         System.out.println("char : " + charTest);
@@ -30,9 +31,7 @@ public class DeclarationApp {
         System.out.println("string : " + stringTest);
 
 
-        String randomString = "Voici le résultat d'un calcule : \n 1 + 5 = 6";
+        String randomString = "Voici le résultat d'un calcule :\n1 + 5 = 6";
         System.out.println(randomString);
-
-
     }
 }
